@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>TaxSite</title>
+  <meta name="title" content="Adex">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+ <!--<link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+ -->
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/TaxHero.JPG" width="74" height="24" alt="Adex home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about-Us" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#service-section" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#contact-us" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:icalderoncs@gmail.com" class="contact-link">icalderoncs@gmail.com</a>
+
+          <a href="tel:(602)-446-3836" class="contact-link">Call us: (602)-446-3836</a>
+        </div>
+
+        <ul class="social-list">
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+
+          <li>
+            <a href="https://www.facebook.com/calderoncommunityservice?_rdr" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+<!-- 
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" aria-label="home"
+        style="">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Calderon Community Service.</h1>
+
+            <p class="hero-text">
+              Welcome to Calderon Community Services, a distinguished establishment with over 16 years of unwavering commitment to excellence Founded in 2007, we have emerged as a trusted partner in delivering a comprehensive suite of professional services to meet diverse business needs.
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#service-section" class="btn btn-primary">Explore Now</a>
+
+              <a href="#contact-us" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/TaxHero.JPG"width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <div class="hero-card">
+                    <figure class="img-holder" style="--width: 575; --height: 550;">
+                      <img src="./assets/images/TaxHero2.JPG" width="600" height="850" alt="hero banner"
+                        class="img-cover">
+                    </figure>
+                  </div>
+
+                </li>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/TaxSeaon.JPG" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+      <section id="service-section" class="section service" aria-labelledby="service-label">
+        <div class="container">
+          <!-- <p class="section-subtitle" id="service-label">What We Do?</p> -->
+          <h2 class="h2 section-title">The services we offer are specifically designed to meet your needs.</h2>
+      
+          <!-- Hero Slider -->
+          <div class="hero-slider" data-slider>
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+                <!-- Service Cards -->
+                <li class="slider-item">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h4 card-title">Immigration Application Assistance</h3>
+                    <p class="card-text">
+                      Guiding you through the intricacies of immigration procedures with care. 
+                    </p>
+                  </div>
+                </li>
+      
+                <li class="slider-item">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h4 card-title">Tax Preparation</h3>
+                    <p class="card-text">
+                      Navigating the complexities of taxation with precision and expertise.
+                    </p>
+                    <!-- <a href="#" class="btn-text">
+                      <span class="span">Learn More</span>
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a> -->
+                  </div>
+                </li>
+      
+                <li class="slider-item">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h4 card-title">Accounting/Book keeping</h3>
+                    <p class="card-text">
+                      Keeping your financial records in meticulous order for informed decision-making. 
+                    </p>
+                    <!-- <a href="#" class="btn-text">
+                      <span class="span">Learn More</span>
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a> -->
+                  </div>
+                </li>
+      
+                <li class="slider-item">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h4 card-title">Payroll Services</h3>
+                    <p class="card-text">
+                      Streamlining payroll processes for efficiency and compliance. 
+                    </p>
+                    
+                  </div>
+                </li>
+
+                <li class="slider-item">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h4 card-title">Notary Services</h3>
+                    <p class="card-text">
+                      Ensuring the authenticity of your important documents. 
+                    </p>
+                    
+                  </div>
+                </li>
+
+                <li class="slider-item">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h4 card-title">Document Translations</h3>
+                    <p class="card-text">
+                      Breaking language barriers to foster clear communication. 
+                    </p>
+                    
+                  </div>
+                </li>
+
+                <li class="slider-item">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h4 card-title">Apostille Services</h3>
+                    <p class="card-text">
+                      Simplifying the legalization of international documents. 
+                    </p>
+                    
+                  </div>
+                </li>
+                
+                <li class="slider-item">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h4 card-title">Mexican Consulate Appoitnments and Processes</h3>
+                    <p class="card-text">
+                      Expert assistance in navigating consulate-related procedures. 
+                    </p>
+                    
+                  </div>
+                </li>
+
+                <li class="slider-item">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h4 card-title">Real State Services</h3>
+                    <p class="card-text">
+                      Facilitating smooth real estate transactions with our industry insight.  
+                    </p>
+                    
+                  </div>
+                </li>
+              </ul>
+            </div>
+      
+            <!-- Slider Buttons -->
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+      
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+          </div>
+        </div>
+      </section>
+      
+      
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/arizonaCity.jpg" width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h2 section-title">
+              Why choose Us?
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Experience</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Over 16 years of proven expertise.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Reliability</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    A trusted partner in your business journey.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Comprehensive Services</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    One-stop solutions tailored to your needs.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Global Perspective</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Navigating international requierements with finesse.
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Attention to Detail</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                   Meticulous in every aspect of our services.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/TaxSolutions.JPG" width="800" height="531"  loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              We make your needs stress-free. Your success is our business!
+            </h2>
+
+            <!-- <p class="section-text">
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
+              dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus.
+            </p> -->
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Join the ranks of satisfied clients who have experienced working with Calderon Community Services
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Let us be your partner in success.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                   We offer solutions that go beyond expectations.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Discover the power of proffesional execellence.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section id="about-Us" class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Case Studies</p>
+
+          <h2 class="h2 section-title">About Us</h2>
+          <h3 class="aboutUs">At Calderon Community Services LLC. We are decated to empowering our clients success.<br
+          > With a team of seasoned proffesionals , we strive for exelelence, accuracy, and reliability in every service we provide.<br>
+        your goals are our priority, and we take pride in contributing to your financial and personal achievements.</h3>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/arizonaCity.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a class="card-title">Experience</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Over 16 years of proven Experience.
+                  </p>
+
+                  <!-- <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Coding</span>
+                    </li>
+
+                  </ul> -->
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/AZ2ndPic.jpg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a class="card-title">Reliability</a>
+                  </h3>
+
+                  <p class="card-text">
+                  A trusted partner in your business journey.
+                  </p>
+
+                  <!-- <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Workspace</span>
+                    </li>
+
+                  </ul> -->
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/AzPic3.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a  class="card-title">Comprehensive Services</a>
+                  </h3>
+
+                  <p class="card-text">
+                    One-stop solutions tailored to your needs.
+                  </p>
+
+                  <!-- <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-02-26">26 Feb 2022</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Meeting</span>
+                    </li>
+
+                  </ul> -->
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section id="contact-us" class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Join our community by using our services and grow your business. <br>
+            Contact us today!
+          </h2>
+
+          <!-- <a href="#" class="btn btn-primary">Try it For Free</a> -->
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <!-- <a href="#" class="logo">
+          <img src="./assets/images/logo-light.svg" width="74" height="24" alt="Adex home">
+        </a> -->
+
+        <p class="footer-text">
+          &copy; 2024 Made by B.G <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/calderoncommunityservice?_rdr" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+<!-- 
+          Saving these socials for future possible accounts. -->
+          
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+
+
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li> -->
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+          2025 N 3rd Street Suite 309 Phoenix, AZ
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:icalderoncs@gmail.com" class="footer-link">Email: icalderoncs@gmail.com</a>
+        </li>
+
+        <li>
+          <a href="tel:001234567890" class="footer-link">Call us: (602)-446-3836</a>
+        </li>
+
+      </ul>
+<!-- 
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Story</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+
+      </ul> -->
+
+      <div class="footer-list">
+
+        <!-- <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div> -->
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
