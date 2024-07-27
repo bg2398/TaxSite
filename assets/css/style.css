@@ -1158,4 +1158,15 @@ color: white;
 
   .feature-list { grid-template-columns: 1fr 1fr; }
 
+
+  #language-switch {
+    display: block;
+  }
+  
+  @media (max-width: 767px) {
+    #language-switch {
+      display: none; /* or another style that might hide it */
+    }
+  }
+
 }
