@@ -48,6 +48,8 @@
   <header class="header" data-header>
     <div class="container">
 
+      <button id="language-switch" class="btn btn-primary">Cambiar a Ingles</button>
+
       
       <nav class="navbar" data-navbar>
 
@@ -64,19 +66,19 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="#" class="navbar-link">Home</a>
+            <a href="#" class="navbar-link" data-translate="HomeBtn">Home</a>
           </li>
 
           <li>
-            <a href="#about-Us" class="navbar-link">About</a>
+            <a href="#about-Us" class="navbar-link"data-translate="AboutBtn">About</a>
           </li>
 
           <li>
-            <a href="#service-section" class="navbar-link">Services</a>
+            <a href="#service-section" class="navbar-link" data-translate="ServicesBtn">Services</a>
           </li>
 
           <li>
-            <a href="#contact-us" class="navbar-link">Contact</a>
+            <a href="#contact-us" class="navbar-link" data-translate="ContactBtn">Contact</a>
           </li>
 
         </ul>
@@ -152,15 +154,15 @@
 
             <h1 class="h1 hero-title">Calderon Community Services.</h1>
 
-            <p class="hero-text">
+            <p class="hero-text" data-translate="welcomeCalderon">
               Welcome to Calderon Community Services, a distinguished establishment with over 16 years of unwavering commitment to excellence Founded in 2007, we have emerged as a trusted partner in delivering a comprehensive suite of professional services to meet diverse business needs.
             </p>
 
             <div class="btn-wrapper">
 
-              <a href="#service-section" class="btn btn-primary">Explore Now</a>
+              <a href="#service-section" class="btn btn-primary" data-translate="ExploreBtn">  Explore Now</a>
 
-              <a href="#contact-us" class="btn btn-outline">Contact Us</a>
+              <a href="#contact-us" class="btn btn-outline" data-translate="ContactUsBtn"> Contact Us</a>
 
             </div>
 
@@ -224,7 +226,7 @@
       <section id="service-section" class="section service" aria-labelledby="service-label">
         <div class="container">
           <!-- <p class="section-subtitle" id="service-label">What We Do?</p> -->
-          <h2 class="h2 section-title">The services we offer are specifically designed to meet your needs.</h2>
+          <h2 class="h2 section-title" id="servicesLabel" data-translate="servicesTitle">Services we offer are specifically designed to meet your needs.
       
           <!-- Hero Slider -->
           <div class="hero-slider" data-slider>
@@ -236,9 +238,13 @@
                     <div class="card-icon">
                       <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
                     </div>
-                    <h3 class="h4 card-title">Immigration Application Assistance</h3>
+                    <h3 class="h4 card-title" data-translate="immigrationApplicationAssistance">Immigration Application Assistance</h3>
                     <p class="card-text">
-                      Guiding you through the intricacies of immigration procedures with care. 
+                      Forms N565,
+                      I130,
+                      I90,
+                      N400, 
+                      & More 
                     </p>
                   </div>
                 </li>
@@ -248,25 +254,9 @@
                     <div class="card-icon">
                       <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
                     </div>
-                    <h3 class="h4 card-title">Tax Preparation</h3>
+                    <h3 class="h4 card-title" data-translate="taxPreparation">Tax Preparation</h3>
                     <p class="card-text">
-                      Navigating the complexities of taxation with precision and expertise.
-                    </p>
-                    <!-- <a href="#" class="btn-text">
-                      <span class="span">Learn More</span>
-                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                    </a> -->
-                  </div>
-                </li>
-      
-                <li class="slider-item">
-                  <div class="service-card">
-                    <div class="card-icon">
-                      <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
-                    </div>
-                    <h3 class="h4 card-title">Accounting/Book keeping</h3>
-                    <p class="card-text">
-                      Keeping your financial records in meticulous order for informed decision-making. 
+                      Personal & Business
                     </p>
                     <!-- <a href="#" class="btn-text">
                       <span class="span">Learn More</span>
@@ -280,7 +270,23 @@
                     <div class="card-icon">
                       <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
                     </div>
-                    <h3 class="h4 card-title">Payroll Services</h3>
+                    <h3 class="h4 card-title">Established LLC</h3>
+                    <p class="card-text">
+                      Accounting & Bookeeping services 
+                    </p>
+                    <!-- <a href="#" class="btn-text">
+                      <span class="span">Learn More</span>
+                      <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    </a> -->
+                  </div>
+                </li>
+      
+                <li class="slider-item">
+                  <div class="service-card">
+                    <div class="card-icon">
+                      <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                    </div>
+                    <h3 class="h4 card-title" data-translate="payrollServices">Payroll Services</h3>
                     <p class="card-text">
                       Streamlining payroll processes for efficiency and compliance. 
                     </p>
@@ -293,9 +299,9 @@
                     <div class="card-icon">
                       <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
                     </div>
-                    <h3 class="h4 card-title">Notary Services</h3>
+                    <h3 class="h4 card-title" data-translate="notaryServices">Notary Services</h3>
                     <p class="card-text">
-                      Ensuring the authenticity of your important documents. 
+                      Servicios notarios 
                     </p>
                     
                   </div>
@@ -306,7 +312,7 @@
                     <div class="card-icon">
                       <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
                     </div>
-                    <h3 class="h4 card-title">Document Translations</h3>
+                    <h3 class="h4 card-title" data-translate="arizonaTranslationServices">Document Translations</h3>
                     <p class="card-text">
                       Breaking language barriers to foster clear communication. 
                     </p>
@@ -332,7 +338,7 @@
                     <div class="card-icon">
                       <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
                     </div>
-                    <h3 class="h4 card-title">Mexican Consulate Appoitnments and Processes</h3>
+                    <h3 class="h4 card-title" data-translate="mexicanConsulate">Mexican Consulate Appoitnments and Processes</h3>
                     <p class="card-text">
                       Expert assistance in navigating consulate-related procedures. 
                     </p>
@@ -345,7 +351,7 @@
                     <div class="card-icon">
                       <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
                     </div>
-                    <h3 class="h4 card-title">Real State Services</h3>
+                    <h3 class="h4 card-title"data-translate="realState">Real State Services</h3>
                     <p class="card-text">
                       Facilitating smooth real estate transactions with our industry insight.  
                     </p>
@@ -387,9 +393,9 @@
 
           <div class="about-content">
 
-            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+            <p class="section-subtitle" id="about-label" data-translate="WhyChooseUs">Why Choose Us?</p>
 
-            <h2 class="h2 section-title">
+            <h2 class="h2 section-title" data-translate="WhyChooseUs">
               Why choose Us?
             </h2>
 
@@ -402,11 +408,11 @@
                     <button class="accordion-btn" data-accordion-btn>
                       <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-                      <spna class="span h5">Experience</spna>
+                      <spna class="span h5" data-translate="Experienceheader">Experience</spna>
                     </button>
                   </h3>
 
-                  <p class="accordion-content">
+                  <p class="accordion-content" data-translate="experienceLabel">
                     Over 16 years of proven expertise.
                   </p>
 
@@ -420,18 +426,18 @@
                     <button class="accordion-btn" data-accordion-btn>
                       <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-                      <spna class="span h5">Reliability</spna>
+                      <spna class="span h5" data-translate="reliabiltyMain">Reliability</spna>
                     </button>
                   </h3>
 
-                  <p class="accordion-content">
+                  <p class="accordion-content" data-translate="reliabilityHeader">
                     A trusted partner in your business journey.
                   </p>
 
                 </div>
               </li>
 
-              <li class="about-item">
+              <!-- <li class="about-item">
                 <div class="accordion-card" data-accordion>
 
                   <h3 class="card-title">
@@ -447,9 +453,9 @@
                   </p>
 
                 </div>
-              </li>
+              </li> -->
 
-              <li class="about-item">
+              <!-- <li class="about-item">
                 <div class="accordion-card" data-accordion>
 
                   <h3 class="card-title">
@@ -465,7 +471,7 @@
                   </p>
 
                 </div>
-              </li>
+              </li> -->
 
               <li class="about-item">
                 <div class="accordion-card" data-accordion>
@@ -474,11 +480,11 @@
                     <button class="accordion-btn" data-accordion-btn>
                       <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-                      <spna class="span h5">Attention to Detail</spna>
+                      <spna class="span h5" data-translate="attentionDetailMain">Attention to Detail</spna>
                     </button>
                   </h3>
 
-                  <p class="accordion-content">
+                  <p class="accordion-content" data-translate="attentionTextMain">
                    Meticulous in every aspect of our services.
                   </p>
 
@@ -512,7 +518,7 @@
 
             <p class="section-subtitle" id="feautre-label">Our Solutions</p>
 
-            <h2 class="h2 section-title">
+            <h2 class="h2 section-title" data-translate="resolutionsHeader">
               We make your needs stress-free. Your success is our business!
             </h2>
 
@@ -530,7 +536,7 @@
                     <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
                   </div>
 
-                  <span class="span">
+                  <span class="span" data-translate="resolutionsText1">
                     Join the ranks of satisfied clients who have experienced working with Calderon Community Services
                   </span>
 
@@ -544,7 +550,7 @@
                     <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
                   </div>
 
-                  <span class="span">
+                  <span class="span" data-translate="resolutionsText2">
                     Let us be your partner in success.
                   </span>
 
@@ -558,7 +564,7 @@
                     <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
                   </div>
 
-                  <span class="span">
+                  <span class="span" data-translate="resolutionsText3">
                    We offer solutions that go beyond expectations.
                   </span>
 
@@ -572,7 +578,7 @@
                     <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
                   </div>
 
-                  <span class="span">
+                  <span class="span" data-translate="resolutionsText4">
                     Discover the power of proffesional execellence.
                   </span>
 
@@ -604,8 +610,8 @@
 
           <p class="section-subtitle" id="project-label">Case Studies</p>
 
-          <h2 class="h2 section-title">About Us</h2>
-          <h3 class="aboutUs">At Calderon Community Services LLC. We are decated to empowering our clients success.<br
+          <h2 class="h2 section-title" data-translate="aboutTitle">About Us</h2>
+          <h3 class="aboutUs" data-translate="aboutText1"> At Calderon Community Services LLC. We are decated to empowering our clients success.<br
           > With a team of seasoned proffesionals , we strive for exelelence, accuracy, and reliability in every service we provide.<br>
         your goals are our priority, and we take pride in contributing to your financial and personal achievements.</h3>
 
@@ -622,10 +628,10 @@
                 <div class="card-content">
 
                   <h3 class="h3">
-                    <a class="card-title">Experience</a>
+                    <a class="card-title" data-translate="experienceCard">Experience</a>
                   </h3>
 
-                  <p class="card-text">
+                  <p class="card-text" data-translate="experienceCardtext">
                     Over 16 years of proven Experience.
                   </p>
 
@@ -661,10 +667,10 @@
                 <div class="card-content">
 
                   <h3 class="h3">
-                    <a class="card-title">Reliability</a>
+                    <a class="card-title" data-translate="reliabilityCard" data-translate="reliabilityCard">Reliability</a>
                   </h3>
 
-                  <p class="card-text">
+                  <p class="card-text" data-translate="reliabilityCardText">
                   A trusted partner in your business journey.
                   </p>
 
@@ -700,10 +706,10 @@
                 <div class="card-content">
 
                   <h3 class="h3">
-                    <a  class="card-title">Comprehensive Services</a>
+                    <a  class="card-title" data-translate="comprehensiveServices">Comprehensive Services</a>
                   </h3>
 
-                  <p class="card-text">
+                  <p class="card-text" data-translate="comprehensiveServicesText">
                     One-stop solutions tailored to your needs.
                   </p>
 
@@ -744,7 +750,7 @@
       <section id="contact-us" class="cta" aria-label="call to action">
         <div class="container">
 
-          <h2 class="h2 section-title">
+          <h2 class="h2 section-title" data-translate="footerTranslate">
             Join our community by using our services and grow your business. <br>
             Contact us today!
           </h2>
@@ -815,7 +821,7 @@
       <ul class="footer-list">
 
         <li>
-          <p class="h4 footer-list-title">Get in Touch</p>
+          <p class="h4 footer-list-title" data-translate="contactText">Get in Touch</p>
         </li>
 
         <li>
@@ -829,9 +835,20 @@
         </li>
 
         <li>
-          <a href="tel:(602)-446-383" class="footer-link">Call us: (602)-446-3836</a>
+          <a href="tel:(602)-446-383" class="footer-link"data-translate="Callus">Call us: <br> Iris: (602)-446-3836 <br> Issa: (602)-516-5044</a>
         </li>
 
+        <li>
+          <a href="tel:(602)-446-383" class="footer-link"data-translate="Callus2">Issa: (602)-516-5044</a>
+        </li>
+
+        <li>
+          <a href="tel:(602)-446-383" class="footer-link"data-translate="Callus3">Hours of operation <br> 8am-4pm </a>
+        </li>
+
+        <li>
+          <a href="tel:(602)-446-383" class="footer-link"data-translate="Callus4">After hours with Appoitnments only</a>
+        </li>
       </ul>
 <!-- 
       <ul class="footer-list">
@@ -889,6 +906,30 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+  <script>
+    const languageSwitchButton = document.getElementById('language-switch');
+    let currentLanguage = 'es';
+  
+    const translatePage = () => {
+      const elements = document.querySelectorAll('[data-translate]');
+      elements.forEach(element => {
+        const key = element.getAttribute('data-translate');
+        element.textContent = translations[currentLanguage][key];
+      });
+  
+      // Update button text
+      languageSwitchButton.textContent = currentLanguage === 'en' ? 'Cambiar a Español' : 'Switch to English';
+    };
+  
+    languageSwitchButton.addEventListener('click', () => {
+      currentLanguage = currentLanguage === 'en' ? 'es' : 'en';
+      translatePage();
+    });
+  
+    // Initial translation
+    translatePage();
+  </script>
+  
 
   <!-- 
     - ionicon
