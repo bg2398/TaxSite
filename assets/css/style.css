@@ -158,7 +158,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .social-link {
-  font-size: 4rem;
+  font-size: 2rem;
   transition: var(--transition-1);
 }
 
@@ -1157,16 +1157,5 @@ color: white;
    */
 
   .feature-list { grid-template-columns: 1fr 1fr; }
-
-
-  
-  
-  @media (max-width: 767px) {
-    #language-switch {
-      display: block !important;
-      width: 50%; /* Make it full width on mobile */
-      margin: 10px 0;
-    }
-  }
 
 }
