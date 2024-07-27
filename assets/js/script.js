@@ -226,7 +226,7 @@ const translations = {
     Callus3: "Hours of operation: 8AM-4PM Mon-Fri",
     Callus4: "After hours with Appoitnments only please!",
     ExploreBtn: "Explore Now",
-    ContactUsBtn: "",
+    ContactUsBtn: "Contact Us",
     HomeBtn: "Home",
     AboutBtn: "About",
     ServicesBtn: "Services",
