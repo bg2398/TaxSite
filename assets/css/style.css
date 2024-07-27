@@ -158,7 +158,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .social-link {
-  font-size: 2rem;
+  font-size: 4rem;
   transition: var(--transition-1);
 }
 
@@ -844,7 +844,33 @@ color: white;
 
 }
 
+@media (max-width: 767px) {
+  .wrapper {
+    align-items: center; /* Center items horizontally on small screens */
+    text-align: center; /* Center text */
+  }
 
+  .contact-link {
+    margin: 5px 0; /* Adjust margins for spacing */
+  }
+
+  .btn {
+    width: auto; /* Ensure button does not stretch to full width */
+    margin-top: 10px; /* Space above the button */
+  }
+
+  #language-switch {
+    position: relative; /* Ensure it's in the flow of the document */
+    z-index: 10; /* Make sure it’s above other elements */
+    display: block; /* Ensure it’s visible */
+  }
+  
+  .navbar.active #language-switch {
+    display: inline;
+    /* Optional: styles to ensure the button is visible when navbar is active */
+  }
+  
+}
 
 
 
@@ -1070,6 +1096,14 @@ color: white;
   .footer .grid-list { grid-template-columns: repeat(4, 1fr); }
 
 }
+
+
+@media (max-width:767px) {
+  #language-switch {
+    flex-direction: column;
+  }
+}
+  
 
 
 
